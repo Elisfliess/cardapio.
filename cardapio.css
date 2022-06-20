@@ -1,0 +1,180 @@
+body{
+    
+    background-color:black;
+}
+
+header{
+    background-color:black;
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    height: 10vh;
+}
+
+
+
+.bannerimg{
+    
+ height: 86vh;
+ 
+        
+    
+}
+
+.paragrafo{
+    background-color: red;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+.conteudo{
+    width: auto;
+    height: 40vh;
+    display: grid;
+    grid-template-areas: 
+     "caixa1 caixa2 caixa3";
+   grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 1em;
+    grid-gap: 2em;
+    justify-content:center;
+    border-radius: 12px;
+    margin: 50px;
+
+}
+
+.caixa1{
+grid-area: caixa1;
+background-image: url(./imagens/burguer.jpg);
+background-size: cover;
+background-position: center;
+background-color:black;
+border-radius: 12px;
+
+}
+
+.caixa2{
+    grid-area: caixa2;
+    background-image: url(./imagens/burguer.jpg);
+    background-size: cover;
+    background-color:black;
+    border-radius: 12px;
+   
+
+
+}
+
+.caixa3{
+    background-image: url(./imagens/burguer.jpg);
+    background-size: cover;
+    grid-area: caixa3;
+    background-color:black;
+    border-radius: 12px;
+
+}
+
+
+.section2{
+    height: 40vh;
+    display: grid;
+    grid-template-areas: 
+    "caixa4 caixa5 caixa6";
+   grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 1em;
+    grid-gap: 2em;
+    justify-content: center;
+    border-radius: 12px;
+    margin: 50px;
+
+    
+
+}
+
+.caixa4{
+    background-image: url(./imagens/burguer.jpg);
+    background-size: cover;
+    grid-area: caixa4;
+    background-color: black;
+    border-radius: 12px;
+    border:black   solid 1px;
+}
+
+.caixa5{
+    background-image: url(./imagens/burguer.jpg);
+    background-size: cover;
+    grid-area: caixa5;
+    background-color:black;
+    border-radius: 12px;
+}
+
+.caixa6{
+    background-image: url(./imagens/burguer.jpg);
+    background-size: cover;
+    grid-area: caixa6;
+    background-color:black;
+    border-radius: 12px;
+}
+
+
+
+.section3{
+    
+    height: 40vh;
+    display: grid;
+    grid-template-areas: 
+    "caixa7 caixa8 caixa9";
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 1em;
+    grid-gap: 2em;
+    justify-content: center;
+    border-radius: 12px;
+    margin: 50px;
+}
+
+
+.caixa7{
+    background-image: url(./imagens/burguer.jpg);
+    background-size: cover;
+    grid-area: caixa7;
+    background-color:black;;
+    border-radius: 12px;
+}
+
+.caixa8{
+    background-image: url(./imagens/burguer.jpg);
+    background-size: cover;
+    grid-area: caixa8;
+    background-color: black;;
+    border-radius: 12px;
+}
+
+.caixa9{
+    background-image: url(./imagens/burguer.jpg);
+    background-size: cover;
+    grid-area: caixa9;
+    background-color:black;
+    border-radius: 12px;
+}
+
+.button_{
+    font-size: 12px ;
+    border: 0;
+    padding: 10px;
+    width: 200px;
+    height: 38px;
+    justify-content: center;
+    display: inline-block;
+    margin-bottom: 50px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
